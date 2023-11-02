@@ -9,7 +9,7 @@ GEM
     puma (6.4.0)
       nio4r (~> 2.0)
     rack (2.2.8)
-    rack-protection (2.0.1)
+    rack-protection (2.1.0)
       rack
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
@@ -27,10 +27,10 @@ GEM
       rspec-support (~> 3.6.0)
     rspec-support (3.6.0)
     ruby2_keywords (0.0.5)
-    sinatra (2.0.1)
+    sinatra (2.1.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
     tilt (2.3.0)
 
@@ -42,7 +42,7 @@ DEPENDENCIES
   puma (= 6.4.0)
   rack-test (= 0.7.0)
   rspec (= 3.6.0)
-  sinatra (= 2.0.1)
+  sinatra (= 2.1.0)
 
 BUNDLED WITH
    2.4.21
