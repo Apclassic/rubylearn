@@ -10,5 +10,10 @@ module ExpenseTracker
     get '/expenses/:date' do
       JSON.generate([])
     end
+
+    def initialize(ledger: Ledger.new)
+      @ledger = ledger
+      super()
+    end
   end
 end
